@@ -29,7 +29,7 @@ header nav a { margin: 0em 0.8em; }
   background: white; !important
 }
 .bio { margin-top: 4em ;font-family: 'IBM Plex Mono'; font-size: 0.8rem; font-weight: 400; text-align: left ; line-height: 1.25em; }
-.links {text-decoration: underline;}
+.links {text-decoration: underline; font-family: 'IBM Plex Mono'; font-size: 0.8rem; font-weight: 400; text-align: left ; line-height: 1.25em;}
 
 /* This is requried for Grid */
 .section-image img { width: 100%; }
