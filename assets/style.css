@@ -12,7 +12,7 @@ body {
 
 #gallery { margin: 20px; }
 
-header { margin: 20px 25px 20px 25px ; text-align:left ; font-family: 'IBM Plex Mono'; color: black !important; }
+header { margin: 20px 20px 20px 20px ; text-align:left ; font-family: 'IBM Plex Mono'; color: black !important; }
 header img.avatar { width: 64px; border-radius: 50%; }
 header .title { font-size: 0.8rem; font-weight: 500; line-height: 1.25em; color: black !important;}
 header .about { font-size: 0.8rem; font-weight: 500; float: right ;line-height: 1.25em; }
