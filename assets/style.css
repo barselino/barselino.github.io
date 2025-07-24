@@ -2,8 +2,8 @@
 
 
 * { margin: 0; padding: 0; }
-a { text-decoration: none; color: #bb2222;}
-a:hover { color: #dd1144; }
+a { text-decoration: none; color: black;}
+a:hover { color: #bb2222; }
 body {
   Background-color:white !important;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -12,14 +12,15 @@ body {
 
 #gallery { margin: 20px; }
 
-header { margin: 20px 20px 20px 25px; text-align: left; font-family: 'IBM Plex Mono'; }
+header { margin: 20px 25px 20px 25px ; text-align:left ; font-family: 'IBM Plex Mono'; color: black !important; }
 header img.avatar { width: 64px; border-radius: 50%; }
-header .title { font-size: 1em; font-weight: 500; line-height: 1.6em; }
+header .title { font-size: 0.8rem; font-weight: 500; line-height: 1.25em; color: black !important;}
+header .about { font-size: 0.8rem; font-weight: 500; float: right ;line-height: 1.25em; }
 header .description { line-height: 1.6em; }
 header nav { margin: 0em 0; }
 header nav a { margin: 0em 0.8em; }
 
-.section { margin-top: 1em; }
+.section { margin-top: 0em; }
 .section-header-wrapper { max-width: 800px; margin-left: 1em; }
 .section-title { font-family: 'IBM Plex Mono'; font-size: 1em; font-weight: 400; line-height: 1.6em; }
 .section-description { line-height: 1.4em; }
@@ -27,6 +28,8 @@ header nav a { margin: 0em 0.8em; }
 .pswp__bg { 
   background: white; !important
 }
+.bio { margin-top: 4em ;font-family: 'IBM Plex Mono'; font-size: 0.8rem; font-weight: 400; text-align: left ; line-height: 1.25em; }
+.links {text-decoration: underline;}
 
 /* This is requried for Grid */
 .section-image img { width: 100%; }
